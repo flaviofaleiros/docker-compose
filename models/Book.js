@@ -12,7 +12,7 @@ var schema = mongoose.Schema({
     }, 
     description: {
         required: true,
-        type: String        
+        type: String
     },
     cover: {
         required: true,
