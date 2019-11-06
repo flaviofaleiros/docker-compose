@@ -4,7 +4,7 @@ mongoose.Promise = Promise;
 module.exports = (uri) => {
 	
 	mongoose.connect(uri);
-	const conn = mongoose.connection;
+	const conn = mongoose.connection; 
 	
 	conn.on('connected', () => 
 	console.log('\n Mongoose! Connected! ' + uri));
